@@ -7,11 +7,15 @@
 #
 #      CREATED ON : 17-Jul-2015
 #------------------------------------------------------------------------------
-# 
+#
 
 NORMAL_FG_COLORS="Red Green Yellow Blue Magenta Cyan White"
 BOLD_FG_COLORS="BoldRed BoldGreen BoldYellow BoldBlue BoldMagenta BoldCyan BoldWhite"
 ALL_FG_COLORS="${NORMAL_FG_COLORS} ${BOLD_FG_COLORS}"
+
+echo ""
+echo "_resetColor=\${_COLORS_PREFIX_}ColorReset"
+echo ""
 
 for _nfg in ${NORMAL_FG_COLORS}; do
     echo "_tc=\${_COLORS_PREFIX_}${_nfg}"
@@ -29,13 +33,9 @@ echo "printf \"\n\""
 
 BG_COLORS="OnRed OnGreen OnYellow OnBlue OnMagenta OnCyan OnWhite"
 
-echo ""
-echo "_resetColor=\${_COLORS_PREFIX_}ColorReset"
-echo ""
-
 for _fg in ${ALL_FG_COLORS}; do
     echo "#------------------------------------------------------------------------------"
-    echo "# ${_fg} on different backgrounds" 
+    echo "# ${_fg} on different backgrounds"
     echo ""
     for _bg in ${BG_COLORS}; do
         echo "_tc=\${_COLORS_PREFIX_}${_fg}${_bg}"
@@ -56,7 +56,7 @@ echo ""
 
 for _fg in ${ALL_FG_COLORS}; do
     echo "#------------------------------------------------------------------------------"
-    echo "# ${_fg} on different backgrounds" 
+    echo "# ${_fg} on different backgrounds"
     echo ""
     for _bg in ${BG_COLORS}; do
         echo "_tc=\${_COLORS_PREFIX_}${_fg}${_bg}"

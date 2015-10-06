@@ -6,7 +6,7 @@
 #
 #      CREATED ON : 17-Jul-2015
 #------------------------------------------------------------------------------
-# 
+#
 
 FG_COLORS="Red Green Yellow Blue Magenta Cyan White BoldRed BoldGreen BoldYellow BoldBlue BoldMagenta BoldCyan BoldWhite"
 BG_COLORS="OnRed OnGreen OnYellow OnBlue OnMagenta OnCyan OnWhite OnBoldRed OnBoldGreen OnBoldYellow OnBoldBlue OnBoldMagenta OnBoldCyan OnBoldWhite"
