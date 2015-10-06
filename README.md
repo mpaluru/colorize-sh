@@ -65,3 +65,6 @@ cd colorize-sh
 ## generator
 
 The source script files used to generate colorize.sh file are also published. Please check the `generator` folder.
+
+## License
+MIT License
