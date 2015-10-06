@@ -18,8 +18,8 @@ wget https://raw.githubusercontent.com/mpaluru/colorize-sh/master/colorize.sh
 . colorize.sh
 
 # Start using different colors!
-printf "${Red} Hello World in Red ${Red}"
-printf "${RedOnYellow} Hello World in RedOnYellow ${RedOnYellow}"
+printf "${Red} Hello World in Red ${ColorReset}"
+printf "${RedOnYellow} Hello World in RedOnYellow ${ColorReset}"
 
 ```
 ### Advanced Usage:
