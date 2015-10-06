@@ -1,6 +1,10 @@
 # colorize.sh
 
-This simple utility is useful to add colorful messages to any shell script.
+- Do you want to print strings/messages using different colors in your shell script?
+- Are you tired of typing the complex escape codes?
+- Do you want to use directly the color names in the strings in your shell script?
+
+If YES, this utility script is for you! Just drop in the file in the same directory as your shell script, import it and start adding colors to your shell script output messages.
 
 ## Download
 
